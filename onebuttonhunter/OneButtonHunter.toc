@@ -1,0 +1,7 @@
+## Interface: 11200
+## Title: OneButtonHunter |cFFFF8080-Shino-|r
+## Notes: Time to simplify the hunter class even more!
+## Author: Shino <Synced> - Kronos
+## Version adapted for Spanish client by Elchapa
+
+OneButtonHunter.lua

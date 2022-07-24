@@ -1,0 +1,72 @@
+local AceLocale = AceLibrary("AceLocale-2.2"):new("YaHT");
+
+AceLocale:RegisterTranslations("esES", function() 
+    return
+	{
+		-- Command params
+		["Lock"] = "Cerrar",
+		["Lock Timer and Castbar into position"] = "Bloquear el temporizador y la barra en posición",
+		["Castbar Options"] = "Opciones de la barra de casteo",
+		["Aimed Shot in castbar"] = "Disparo de punteria en la barra de casteo",
+		["Show 'Aimed Shot' in the castbar"] = "Mostrar 'Disparo de punteria' en la barra de casteo",
+		["Multi-Shot in castbar"] = "Multidisparo en la barra de casteo",
+		["Show 'Multi-Shot' in the castbar"] = "Mostrar 'Multidisparo en la barra de casteo",
+		["Timer Color"] = "Color del temporizador",
+		["Set the color of the timer between shots"] = "Establezca el color del temporizador entre tomas",
+		["Draw Color"] = "Color",
+		["Set the color of the bar while the weapon charges"] = "Establezca el color de la barra mientras el arma carga",
+		["Border Color"] = "Border Color",
+		["Set the color of the border"] = "Establezca el color del borde",
+		["Tranq options"] = "Opciones del disparo tranquilizante",
+		["Tranq announce"] = "Anuncio del disparo tranquilizante ",
+		["Enable Tranquilizing Shot announce"] = "Activo Anuncio del disparo tranquilizante",
+		["Tranq fail announce"] = "Anuncio del disparo tranquilizante fallido",
+		["Enable failed Tranquilizing Shot announce"] = "Activo Anuncio del disparo tranquilizante fallido",
+		["<Message>"] = "<Message>",
+		["Channel"] = "Canal",
+		["Channel in which to announce"] = "Canal para anunciar",
+		["<channelname>"] = "<channelname>",
+		["Tranq Message"] = "Mensaje del disparo tranquilizante",
+		["What to send to the channel"] = "Qué enviar al canal",
+		["Use plain text and substitute the targets name with %t"] = "Use texto sin formato y sustituya el nombre de los objetivos con %t",
+		["Tranq fail Message"] = "Mensaje del disparo tranquilizante fallido",
+		["What to send to the channel when tranq failed"] = "Qué enviar al canal cuando el disparo tranquilizante falló",
+		["Reset Settings"] = "Reiniciar ajustes",
+		
+		["Timer options"] = "Opciones de temporizador",
+		["Height"] = "Altura",
+		["Width"] = "Ancho",
+		["Border Thickness"] = "Espesor del borde",
+		["Alpha"] = "Opacidad",
+		["Movement Alpha"] = "Movimiento opacidad",
+		["Alpha during player movent"] = "Opacidad durante el movimiento del jugador",
+		["Bar Texture"] = "Textura de barra",
+		["<texturename>"] = "<texturename>",
+		["L2R Growth"] = "L2R Growth",
+		["Toggle between centered growth and left to right growth"] = "Alternar entre el crecimiento centrado y el crecimiento de izquierda a derecha",
+		
+		["Aimed Shot"] = "Disparo de puntería",
+		["Multi-Shot"] = "Multidisparo",
+		["Serpent Sting"] = "Aguijón de serpiente",
+		["Arcane Shot"] = "Disparo Arcano",
+		["Concussive Shot"] = "Disparo de conmoción",
+		["Distracting Shot"] = "Disparo de distracción",
+		["Scatter Shot"] = "Disparo disperso",
+		["Scorpid Sting"] = " Aguijón de escorpido",
+		["Viper Sting"] = "Picadura de víbora",
+		["Tranquilizing Shot"] = "Disparo tranquilizante",
+		
+		["Loaded. The hunt begins!"] = "Loaded. The hunt begins!",
+		["Locked."] = "Locked.",
+		["Unlocked."] = "Unlocked.",
+		["Do you really want to reset to default for your current profile?"] = "Do you really want to reset to default for your current profile?",
+		["OK"] = "OK",
+		["Cancel"] = "Cancel",
+		["Current profile has been reset."] = "Current profile has been reset.",
+		
+		["YaHT_MISS"] = "Tu disparo tranquilizante ha fallado.+",
+		["YaHT_FAILEDMSG"] = "YaHT: Tranquilizing Shot failed!",
+		["YaHT_TRANQMSG"] = "YaHT: Tranquilizing Shot on %t",
+	}
+end)
+--Modified by Elchapa
